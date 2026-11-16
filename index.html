@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span>Coffee House</span>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#cups">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <button class="nav-button">Order Now</button>
+         <a href="#menu"><i class="fa-solid fa-list-ul"></i></a>
+        </div>
+    </div>
+
+    <header>
+        <div class="hero">
+            <div class="titl">
+                <h1>Fresh Coffee Every Morning</h1>
+                <p class="hero-text">Start your day with rich, freshly brewed coffee, made with love and served with a smile.</p>
+                <a href="#">Order Now ></a>
+
+                <div class="fresh">
+                    <div class="fresh-item" id="fresh-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="22px" width="22px" fill="#C08A3E"><path d="M8.55,20h6.9l1-4H7.55l1,4Zm0,2q-0.7,0-1.23-0.43t-0.7-1.1L5.5,16h13l-1.13,4.48q-0.18,0.67-0.7,1.1T15.45,22H8.55ZM5,14H19V12H5v2Zm7-6q0-2.5 1.75-4.25T18,2q0,2.25-1.43,3.9T13,7.9V10h8v4q0,0.82-0.59,1.41T19,16H5q-0.83,0-1.41-0.59T3,14V10h8V7.9q-2.15-0.35-3.57-2T6,2q2.5,0 4.25,1.75T12,8Z"/></svg>
+                        <p>Ethically Sourced</p>
+                    </div>
+                    <div class="fresh-item" id="fresh-bottom">
+                        <i class="fa-brands fa-envira"></i>
+                        <p>Local & Fresh</p>
+                    </div>
+                </div>
+            </div>
+            <img class="hero-img" src="images/hero.png">
+        </div>
+    </header>
+    <main>
+        <div class="main-title">
+        <h2>Our Signature Menu</h2>
+        <p>Carefully crafted drinks to warm your day</p>
+        </div>
+        <div class="carts" id="cups">
+            <div class="cart-back-1">
+            <div class="cart-1"><h2>Espresso</h2>
+            <p>A perfectly pulled espresso. Thick crema, bold flavor. </p>
+          <span class="price">$2.30</span>
+          <a class="card-button" href="#">Order Now</a>
+          </div>
+        </div>
+         <div class="cart-back-2">
+               <div class="cart-2"><h2>Tea</h2>
+            <p>A cup of tea that brings everyone together.</p>
+          <span class="price">$4.00</span>
+          <a class="card-button" href="#">Order Now</a>
+          </div>
+        </div>
+         <div class="cart-back-3">
+               <div class="cart-3"><h2>Cappuccino</h2>
+            <p>Smooth like silk. Strong espresso.</p>
+            <span class="price">$3.20</span>
+            <a class="card-button" href="#">Order Now</a>
+             </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-head">
+            <h1>Reserve Your Table</h1>
+<p>Book ahead to secure your cozy spot for coffee & conversation</p>
+        </div>
+        <form action="#">
+            <label>
+                Name:
+                <input type="text" id="name" name="name" placeholder="Your name..." required aria-label="aorder-naminput">
+            </label>
+            <label>
+                Date:
+                <input type="date" id="date" name="date" required aria-label="order-date-input">
+            </label>
+            <button class="reserve" aria-label="Order-button">Reserve a table</button>
+        </form>
+        <p>&copy;2026 Coffee House. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
